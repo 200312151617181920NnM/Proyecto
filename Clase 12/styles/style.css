@@ -9,11 +9,11 @@
 
 ::selection {
     background-color: black;
-    color: #e96acd;
+    color: #6a0f7c;
 }
 
 header {
-    background-color: #e96acd;
+    background-color: #808080;
     display: flex;
     gap: 20px;
     grid-gap: 20px;
@@ -38,7 +38,7 @@ header {
 .menu__item a {
     background: white;
     border: 5px solid white;
-    color: #e96acd;
+    color: #ffffff;
     text-decoration: none;
     padding: 1rem;
 }
@@ -60,7 +60,7 @@ header {
 }
 
 .menu__item a:empty {
-    background: green;
+    background: red;
 }
 
 .menu__item a:not(.menu__link) {
@@ -68,7 +68,7 @@ header {
 }
 
 .menu__item a:hover {
-    background: #e96acd;
+    background: #808080;
     color: white;
 }
 
@@ -76,7 +76,7 @@ header {
 
 .imagenPrincipal {
     height: 80vh;
-    background-image: url("../img/paisaje.jpg");
+    background-image: url("../img/maxresdefault.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -96,11 +96,11 @@ header {
 }
 
 .imagenPrincipal h2::first-letter {
-    color: #e96acd;
+    color: #000000;
 }
 
 .imagenPrincipal h2::selection {
-    background: #e96acd;
+    background: #808080;
     color: black;
 }
 
@@ -110,12 +110,12 @@ header {
 }
 
 .imagenPrincipal p::first-line {
-    color: #e96acd;
+    color: #202020;
 }
 
 .imagenPrincipal p::selection {
     background: black;
-    color: #e96acd;
+    color: #000000;
 }
 
 
@@ -146,7 +146,7 @@ header {
 
 .pie {
     background-color: #e96acd;
-    color: white;
+    color: rgb(119, 84, 84);
     padding-block: 20px;
     text-align: center;
     display: flex;

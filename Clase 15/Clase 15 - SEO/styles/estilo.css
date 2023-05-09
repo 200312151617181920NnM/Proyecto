@@ -7,15 +7,15 @@
 }
 *::-moz-selection {
   background-color: black;
-  color: #45eb3f;
+  color: #808080;
 }
 *::selection {
   background-color: black;
-  color: #45eb3f;
+  color: #808080;
 }
 
 header {
-  background-color: #45eb3f;
+  background-color: #808080;
   display: flex;
   gap: 20px;
   grid-gap: 20px;
@@ -36,23 +36,23 @@ header .navbar .menu {
 header .navbar .menu .menu__item a {
   background: white;
   border: 5px solid white;
-  color: #45eb3f;
+  color: #C0C0C0;
   text-decoration: none;
   padding: 1rem;
 }
 header .navbar .menu .menu__item a:hover {
-  background: #45eb3f;
+  background: #C0C0C0;
   color: white;
 }
 header .navbar .menu .menu__item.active a {
-  background: #269722;
-  border-color: #269722;
+  background: #000000;
+  border-color: #000000;
   color: white;
 }
 
 .imagenPrincipal {
   height: 80vh;
-  background-image: url("../img/paisaje.jpg");
+  background-image: url("../img/maxresdefault.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -68,14 +68,14 @@ header .navbar .menu .menu__item.active a {
   padding-inline: 15px;
 }
 .imagenPrincipal h2::first-letter {
-  color: #45eb3f;
+  color: #808080;
 }
 .imagenPrincipal h2::-moz-selection {
-  background: #45eb3f;
+  background: #808080;
   color: black;
 }
 .imagenPrincipal h2::selection {
-  background: #45eb3f;
+  background: #808080;
   color: black;
 }
 .imagenPrincipal p {
@@ -83,15 +83,15 @@ header .navbar .menu .menu__item.active a {
   text-align: center;
 }
 .imagenPrincipal p::first-line {
-  color: #45eb3f;
+  color: #808080;
 }
 .imagenPrincipal p::-moz-selection {
   background: black;
-  color: #45eb3f;
+  color: #808080;
 }
 .imagenPrincipal p::selection {
   background: black;
-  color: #45eb3f;
+  color: #808080;
 }
 
 .tarjetitas {
@@ -100,7 +100,7 @@ header .navbar .menu .menu__item.active a {
   gap: 30px;
 }
 .tarjetitas .tarjetita {
-  background-color: #45eb3f;
+  background-color: #808080;
   border-radius: 30px;
   overflow: hidden;
   display: flex;
@@ -114,12 +114,10 @@ header .navbar .menu .menu__item.active a {
 .tarjetitas .tarjetita .tarjetita__imagen {
   max-width: 100%;
 }
-.tarjetitas .tarjetita.tarjetitados {
-  flex: 1.5;
-}
+
 
 .pie {
-  background-color: #45eb3f;
+  background-color: #808080;
   color: white;
   padding-block: 20px;
   text-align: center;

@@ -8,7 +8,7 @@
 }
 
 header {
-    background-color: #e96acd;
+    background-color: #808080;
     display: flex;
     gap: 20px;
     grid-gap: 20px;
@@ -39,9 +39,9 @@ header {
     text-decoration: underline double;
 }
 
-.imagenPrincipal {
+.imagenP {
     height: 80vh;
-    background-image: url("../img/paisaje.jpg");
+    background-image: url("../img/521477.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -52,13 +52,13 @@ header {
     padding-inline: 200px;
 }
 
-.imagenPrincipal h2 {
+.imagenP h2 {
     color: white;
     background-color: rgba(0, 0, 0, 0.596);
     padding-inline: 15px;
 }
 
-.imagenPrincipal p {
+.imagenP p {
     color: white;
     text-align: center;
 }
@@ -70,7 +70,7 @@ header {
 }
 
 .tarjetita {
-    background-color: #e96acd;
+    background-color: #808080;
     border-radius: 30px;
     overflow: hidden;
     display: flex;
@@ -88,7 +88,7 @@ header {
 }
 
 .pie {
-    background-color: #e96acd;
+    background-color: #808080;
     color: white;
     padding-block: 20px;
     text-align: center;
