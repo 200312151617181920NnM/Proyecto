@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 2: Primeros pasos con HTML</title>
+    <link rel="shortcut icon" href="./imagenes/logo.png" type="image/x-icon">
+</head>
+<body>
+
+    <ol>
+        <li>Inicio</li>
+        <li>Quienes son</li>
+        <li>Servicios</li>
+        <li>Contactos</li>
+        <li>
+            <a href="#formulario">Formulario</a>
+        </li>
+    </ol>
+    <ul>
+        <li>Aceite</li>
+        <li>Arina</li>
+        <li>Arroz</li>
+    </ul>
+
+    <hr>
+
+    <table border="1">
+        <tr>
+            <th>Producto</th>
+            <th>Color</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>Camiseta</td>
+            <td>Azul</td>
+            <td>10 USD</td>
+        </tr>
+        <tr>
+            <td>Zapatos</td>
+            <td>Negros</td>
+            <td>30 USD</td>
+        </tr>
+        <tr>
+            <td>Jacket</td>
+            <td>Negro</td>
+            <td>60 USD</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <form id="formulario">
+        <label for="nombre">
+            Nombre:
+            <input type="text" id="nombre" required="required">
+        </label>
+        <label for="email">
+            Correo:
+            <input type="email" id="email" required>
+        </label>
+        <label for="mensaje">
+            Mensaje:
+            <textarea name="" id="mensaje" cols="30" rows="5" required></textarea>
+        </label>
+
+        <br>
+        <br>
+
+        <label for="si">
+            <input type="radio" name="sino" id="si"> Sí
+        </label>
+        <label for="no">
+            <input type="radio" name="sino" id="no"> No
+        </label>
+        <label for="nose">
+            <input type="radio" name="sino" id="nose"> No sé
+        </label>
+
+        <br>
+        <br>
+
+        <label for="sicheck">
+            <input type="checkbox" name="sinocheck" id="sicheck"> Sí
+        </label>
+        <label for="nocheck">
+            <input type="checkbox" name="sinocheck" id="nocheck"> No
+        </label>
+        <label for="nosecheck">
+            <input type="checkbox" name="sinocheck" id="nosecheck"> No sé
+        </label>
+
+        <br>
+        <br>
+
+        <select name="" id="">
+            <option disabled="disabled" selected="selected">Seleccione un pais: </option>
+            <option>America</option>
+            <option>Suecia</option>
+            <option>Canada</option>
+            <option>Spain</option>
+            <option>Noruega</option>
+        </select>
+
+        <br>
+        <br>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    <hr>
+
+    <a href="https://www.amazon.com/" target="_blank">
+        Amazon
+    </a>
+    <br>
+    <a href="./MonaChina.html">
+        Mona China
+    </a>
+
+    <hr>
+
+    <img src="./imagenes/US_flag_51_stars.svg.png" alt="USA" title="USA" width="300px">
+
+    <hr>
+
+    <iframe width="500" height="400" src="https://www.youtube.com/embed/yIWddRWwWpg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+</body>
+</html>
